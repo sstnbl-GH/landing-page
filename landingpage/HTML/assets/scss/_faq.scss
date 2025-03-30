@@ -1,0 +1,14 @@
+.faq-boxes {
+    border: 1px solid $gray-200;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+    h5 {
+        font-size: 18px;
+        transition: all 0.5s;
+
+        &:hover {
+            color: $red;
+        }
+    }
+}

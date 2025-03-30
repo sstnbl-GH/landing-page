@@ -1,0 +1,86 @@
+.home-bg {
+    background-image: url(../images/home-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header_btn span {
+    position: relative;
+    top: 14px;
+}
+
+.header_title {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.header_subtitle {
+    line-height: 2.0;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+
+/*----HOME 2----*/
+
+.home-half {
+    padding: 180px 0px !important;
+    height: auto !important;
+}
+
+/*----Home 9/10----*/
+
+.home-bg-gredient {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(32deg, rgb(18, 166, 181) 0%, rgb(16, 12, 242) 100%);
+}
+
+/*----Home 21/22---*/
+.home-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.home-table-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.home-slider .carousel-control-next,
+.carousel-control-prev {
+    width: 6%;
+}
+
+.home-slider .carousel-item {
+    background-position: center center !important;
+    background-size: cover !important;
+}
+
+.home-slider .carousel-item,
+.home-slider .carousel {
+    width: 100%;
+    height: 100vh;
+}
+
+/*----Home 21/22---*/
+.video-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba($black, 0.5);
+    }
+}

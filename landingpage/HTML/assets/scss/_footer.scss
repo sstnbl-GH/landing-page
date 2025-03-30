@@ -1,0 +1,55 @@
+.footer_detail {
+    .fot_social {
+        .social-icon {
+            border: 2px solid $gray-600;
+            border-radius: 50%;
+            transition: all 0.5s;
+            width: 42px;
+            height: 42px;
+            display: block;
+            font-size: 18px;
+            line-height: 38px;
+            text-align: center;
+
+            &:hover {
+                border-color: $red;
+                color: $red !important;
+            }
+        }
+    }
+
+    .footer_menu {
+        li {
+            &::after {
+                content: "|";
+                margin: 0 20px;
+                color: $gray-600;
+            }
+            :last-child:after {
+                content: "";
+            }
+            a {
+                font-weight: 500;
+
+                &:hover {
+                    color: $black !important;
+                    transition: all 0.5s;
+                }
+            }
+        }
+    }
+
+    .footer_logo {
+        height: 34px;
+    }
+
+    .copy-rights {
+        line-height: 43px;
+    }
+
+    .fot_bor {
+        height: 2px;
+        background: $gray-200;
+        width: 100%;
+    }
+}

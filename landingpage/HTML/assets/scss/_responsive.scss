@@ -1,0 +1,82 @@
+@media (max-width: 768px) {
+    .custom-nav {
+        margin-top: 0px;
+        padding: 10px 0px !important;
+        background-color: $white !important;
+        top: -50000px;
+        .navbar-nav {
+            margin-top: 0px;
+            li {
+                a {
+                    margin: 0 0px;
+                    padding: 6px 0;
+                }
+            }
+        }
+    }
+
+    .custom-nav>.container {
+        width: 90%;
+    }
+
+    .navbar-toggler {
+        font-size: 29px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: $black;
+    }
+
+    .header_title {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+
+    .header_subtitle {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .price_border_box.active {
+        transform: scale(1.0);
+    }
+
+    .vertical-content {
+        display: inherit;
+    }
+
+    .header_btn span {
+        display: block;
+    }
+
+    .home-half {
+        padding: 140px 0 100px 0 !important;
+    }
+
+    .custom-nav .navbar-brand.logo img {
+        height: 26px;
+    }
+
+    .copy-rights {
+        line-height: 26px;
+    }
+
+    .footer_menu {
+        li {
+            display: block;
+
+            &::after {
+                display: none;
+            }
+        }
+    }
+
+    .float_none.float-end,
+    .float_none.float-start {
+        float: none !important;
+        text-align: center;
+    }
+
+    .home-half {
+        padding: 60px 0px !important;
+    }
+}

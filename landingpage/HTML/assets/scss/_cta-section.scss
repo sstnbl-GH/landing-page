@@ -1,0 +1,13 @@
+.cta-desc {
+    max-width: 635px;
+}
+
+.free-trial-form {
+    .form-control {
+        height: 50px;
+        box-shadow: none;
+        &:focus {
+            border-color: $red;
+        }
+    }
+}

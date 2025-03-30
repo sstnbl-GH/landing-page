@@ -1,0 +1,82 @@
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    background-color: $white;
+}
+
+.bg-dark {
+    background-color: $gray-900;
+}
+
+.text-muted {
+    color: $gray-100;
+}
+
+.bg-dark {
+    background-color: $black !important;
+}
+
+.section-main-title {
+    max-width: 570px;
+}
+
+.main-title-border::after,
+.main-title-border::before {
+    display: inline-block;
+    margin-top: -7px;
+    vertical-align: middle;
+    content: "";
+    background-color: $gray-400;
+    width: 30px;
+    height: 1px;
+}
+
+.main-title-border i {
+    font-size: 20px;
+}
+
+.section-main-title p {
+    max-width: 600px;
+}
+
+.bg-overlay-gredient {
+    background: linear-gradient(32deg, rgba(18, 166, 181, 0.8) 0%, rgba(16, 12, 242, 0.7) 100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.vertical-content {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}

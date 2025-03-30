@@ -1,0 +1,22 @@
+.lan_features_box {
+    .lan_features_icon i {
+        font-size: 44px;
+        color: $red;
+    }
+
+    .lan_features_content {
+        .lan_features_subtitle {
+            font-size: 18px;
+            line-height: 1.4;
+            max-width: 480px;
+        }
+    }
+
+    .lan_features_border {
+        height: 2px;
+        background: $red;
+        width: 60px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+}

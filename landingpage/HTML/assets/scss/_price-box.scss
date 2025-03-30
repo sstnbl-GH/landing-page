@@ -1,0 +1,55 @@
+.price_border_box {
+    padding: 40px;
+    border: 1px solid $gray-200;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+    .lan-price {
+        h1 {
+            font-family: 'Nunito', sans-serif;
+            font-size: 49px;
+
+            sup {
+                position: relative;
+                top: -15px;
+            }
+        }
+    }
+
+    .lan_price_feat {
+        padding: 40px 0px;
+
+        p {
+            font-size: 15px;
+            color: $gray-600;
+        }
+    }
+}
+
+.price_border_box.active {
+    position: relative;
+    overflow: hidden;
+    border-color: $red;
+
+    .lable {
+        background: $red;
+        padding: 8px 0;
+        text-align: center;
+        width: 200px;
+        position: absolute;
+        top: 22px;
+        right: -60px;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+
+        h6 {
+            color: $white;
+            font-size: 14px;
+        }
+    }
+}
+
+.price_border_box .lan-price h1 sup,
+.price_border_box .lan-price h1 sub {
+    font-size: 26px;
+}

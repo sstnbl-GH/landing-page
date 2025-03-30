@@ -1,0 +1,27 @@
+/*
+Product Name: Himton Resoinsive Bootstrap 5 Template
+Author: ThemesBoss
+Main scss files
+*/
+@import "variables";
+@import "mixin/maps";
+@import "mixin/root";
+
+//componets
+@import "componets/helper";
+@import "componets/button";
+
+
+@import 'basic';
+@import 'navbar';
+@import 'price-box';
+@import 'home';
+@import 'features';
+@import 'services';
+@import 'cta-section';
+@import 'testimonial';
+@import 'truseted-clients';
+@import 'faq';
+@import 'contact';
+@import 'footer';
+@import 'responsive';

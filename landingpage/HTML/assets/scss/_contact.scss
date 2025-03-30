@@ -1,0 +1,16 @@
+.custom-form {
+    .form-control {
+        box-shadow: none !important;
+        height: 50px;
+        border: none;
+        background: $gray-100;
+        &:focus {
+            border-color: $red;
+        }
+    }
+    textarea {
+        &.form-control {
+            height: auto;
+        }
+    }
+}

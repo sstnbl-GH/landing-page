@@ -1,0 +1,40 @@
+.testi_boxes {
+    max-width: 900px;
+    .tam_testi_icon {
+        font-size: 50px;
+    }
+}
+
+.client_review {
+    font-size: 20px;
+}
+
+.client_name {
+    font-size: 16px;
+}
+
+.owl-theme {
+    .owl-controls {
+        .owl-page {
+            margin: 20px 0px;
+
+            span {
+                display: block;
+                width: 12px;
+                height: 6px;
+                margin: 5px 4px;
+                filter: Alpha(Opacity=50);
+                opacity: 0.5;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                border-radius: 20px;
+                transition: all 0.5s;
+                background: $red;
+            }
+        }
+    }
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+    width: 20px;
+}
